@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+  <link rel="stylesheet" href="">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/mdb.css">
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@500&family=Poppins&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playfair+Display:wght@800&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+  <!-- Icon -->
+  <link rel="stylesheet" href="icons/css/all.css">
+  <link rel="icon" href="utensils-solid.svg">
+  <!-- Animation -->
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- hover -->
+  <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="css/imagehover.min.css">
+  <!-- My Css -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <!-- Navbar -->
+    <nav class=" navbar navbar-expand-lg navbar-dark">
+      <!-- Navbar brand -->
+      <div class="container">
+        <a class="navbar-brand" href="#">Restaurantly</a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+          <!-- Links -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home"><i class="fa fa-home"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-overline-from-center" href="#about-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-overline-from-center" href="#why_us">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-overline-from-center" href="#events">Events</a>
+            </li>
+
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link hvr-wobble-vertical dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item hvr-underline-from-center" href="#">Action</a>
+                <a class="dropdown-item hvr-underline-from-center" href="#">Another action</a>
+                <a class="dropdown-item hvr-underline-from-center" href="#">Something else here</a>
+              </div>
+            </li>
+
+          </ul>
+          <!-- Links -->
+
+          <form class="form-inline">
+            <div class="md-form my-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+          </form>
+        </div>
+        <!-- Collapsible content -->
+      </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <!-- Big Heading -->
+    <div class="container big-heading" id="home">
+      <div class="welcome  wow animate__animated animate__fadeIn">
+        <h1>Welcome to <span style="font-family: 'Roboto', sans-serif; color: #cda45e;"> Restaurantly</span></h1>
+        <p class="p-heading ">Delivering great food for more than 18 years!</p>
+        <a href="#why_us"><button class="btn purple-gradient btn-lg">Our Menu</button></a>
+        <a href="#reservation"><button class="btn aqua-gradient btn-lg">Book Table</button></a>
+      </div>
+    </div>
+  </header>
+  <section id="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-right" data-aos-duration="2000">
+          <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+          <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore
+            et dolore magna aliqua.</i><br>
+          <ul>
+            <li><i class="far fa-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </li>
+            <li><i class="far fa-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate
+              velit.</li>
+            <li><i class="far fa-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </li>
+          </ul>
+          <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, deleniti ex. Omnis possimus
+            nisi tempora quam ducimus mollitia beatae unde!</p>
+        </div>
+        <div class="col-lg-6" data-aos="flip-left" data-aos-duration="2000">
+          <figure class="imghvr-blur"><img class="about-img img-thumbnail" src="img/about.jpg" alt="example-image">
+            <figcaption style="background-color: #cda45e;">
+              <h3>imagehover.css</h3>
+              <p class="imagehover-text">This cool animation was made by imagehover.css (library). Lorem, ipsum dolor
+                sit amet consectetur adipisicing elit. Repudiandae nostrum praesentium blanditiis! Aspernatur placeat
+                enim, facilis culpa perferendis quaerat dolores, fuga delectus accusamus voluptates sapiente nemo eaque
+                sed, ipsa sint. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta voluptate sint dolorem
+                quaerat corporis nulla aut? Illum facere voluptas assumenda in, facilis quaerat similique et omnis
+                mollitia deserunt neque porro.</p>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Menu Section Not Why us -->
+  <section id="why_us">
+    <div class="container">
+      <div class="container">
+        <div class="why_restaurant">
+          <h6 class="menu-intro">Menu <span
+              class="line">-----------------------------------------------------------------------</span>
+          </h6>
+          <h1 style="color: #cda45e;letter-spacing: 4px;font-weight: 400;">Check Out Our Tasty Menu</h1>
+        </div><br><br><br>
+        <div class="row blog">
+          <div class="col-md-12">
+            <div id="blogCarousel" data-interval="10000" class="carousel slide container-blog" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#blogCarousel" data-slide-to="0" class="button active"></li>
+                <li data-target="#blogCarousel" data-slide-to="1" class="button"></li>
+              </ol>
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-4" data-aos-delay="300" data-aos="flip-up" data-aos-duration="1000">
+                      <div class="item-box-blog">
+                        <div class="item-box-blog-image">
+                          <!--Date-->
+                          <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">20 min</span> </div>
+                          <!--Image-->
+                          <figure> <img class="card-img" alt="" src="img/menu/caesar.jpg"> </figure>
+                        </div>
+                        <div class="item-box-blog-body">
+                          <!--Heading-->
+                          <div class="item-box-blog-heading">
+                            <a href="#" tabindex="0">
+                              <h5>Caesar</h5>
+                            </a>
+                          </div>
+                          <!--Data-->
+                          <div class="item-box-blog-data" style="padding: px 15px;">
+                            <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                          </div>
+                          <!--Text-->
+                          <div class="item-box-blog-text">
+                            <p>The salad's creation is generally attributed to restaurateur Caesar Cardini, an Italian
+                              immigrant who operated restaurants in Mexico and the United States.[2] Cardini was living
+                              in San Diego but he was also working in Tijuana where he avoided the restrictions of
+                              Prohibition.[3] His daughter Rosa recounted that her father invented the salad at his
+                            </p>
+                          </div>
+                          <div class="mt"> <button class="btn btn-sm peach-gradient">Read More</button> </div>
+                          <!--Read More Button-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4" data-aos-delay="600" data-aos="flip-up" data-aos-duration="1000">
+                      <div class="item-box-blog">
+                        <div class="item-box-blog-image">
+                          <!--Date-->
+                          <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">10 min</span> </div>
+                          <!--Image-->
+                          <figure> <img class="card-img" alt="" src="img/menu/bread-barrel.jpg"> </figure>
+                        </div>
+                        <div class="item-box-blog-body">
+                          <!--Heading-->
+                          <div class="item-box-blog-heading">
+                            <a href="#" tabindex="0">
+                              <h5>Bread-Barrel</h5>
+                            </a>
+                          </div>
+                          <!--Data-->
+                          <div class="item-box-blog-data" style="padding: px 15px;">
+                            <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                          </div>
+                          <!--Text-->
+                          <div class="item-box-blog-text">
+                            <p>A breadbox (chiefly American) or a bread bin (chiefly British) is a container for storing
+                              bread and other baked goods to keep them fresh. They were a more common household kitchen
+                              item until bread started being made commercially with food</p>
+                          </div>
+                          <div class="mt"> <button class="btn btn-sm purple-gradient">Read more</button> </div>
+                          <!--Read More Button-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4" data-aos-delay="900" data-aos="flip-up" data-aos-duration="1000">
+                      <div class="item-box-blog">
+                        <div class="item-box-blog-image">
+                          <!--Date-->
+                          <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">30 min</span> </div>
+                          <!--Image-->
+                          <figure> <img class="card-img" alt="" src="img/menu/cake.jpg"> </figure>
+                        </div>
+                        <div class="item-box-blog-body">
+                          <!--Heading-->
+                          <div class="item-box-blog-heading">
+                            <a href="#" tabindex="0">
+                              <h5>Cake</h5>
+                            </a>
+                          </div>
+                          <!--Data-->
+                          <div class="item-box-blog-data" style="padding: px 15px;">
+                            <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                          </div>
+                          <!--Text-->
+                          <div class="item-box-blog-text">
+                            <p>Cake is a form of sweet food made from flour, sugar, and other ingredients, that is
+                              usually baked. ... Cakes can also be filled with fruit preserves, nuts or dessert sauces
+                              (like pastry cream), iced with buttercream or other icings, and decorated with marzipan,
+                              piped borders, or candied fruit.</p>
+                          </div>
+                          <div class="mt"> <button class="btn btn-sm blue-gradient">Read More</button> </div>
+                          <!--Read More Button-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--.row-->
+                </div>
+                <!--.item-->
+                <div class="carousel-item ">
+                  <div class="row">
+                    <div class="col-md-4" data-aos-delay="300" data-aos="flip-up" data-aos-duration="1000">
+                      <div class="item-box-blog">
+                        <div class="item-box-blog-image">
+                          <!--Date-->
+                          <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">1 hr</span> </div>
+                          <!--Image-->
+                          <figure> <img class="card-img" alt="" src="img/menu/lobster-bisque.jpg"> </figure>
+                        </div>
+                        <div class="item-box-blog-body">
+                          <!--Heading-->
+                          <div class="item-box-blog-heading">
+                            <a href="#" tabindex="0">
+                              <h5>Lob-Bisque</h5>
+                            </a>
+                          </div>
+                          <!--Data-->
+                          <div class="item-box-blog-data" style="padding: px 15px;">
+                            <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                          </div>
+                          <!--Text-->
+                          <div class="item-box-blog-text">
+                            <p>Lobster Bisque is a classic smooth and creamy French soup made from homemade lobster
+                              stock. Lobster shells are cooked with aromatics in broth to extract the flavor from the
+                              shells to create a deeply flavorful stock. The lobster stock is then strained and
+                              thickened with rice or heavy cream.</p>
+                          </div>
+                          <div class="mt"> <button class="btn btn-sm peach-gradient">Read More</button> </div>
+                          <!--Read More Button-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4" data-aos-delay="600" data-aos="flip-up" data-aos-duration="1000">
+                      <div class="item-box-blog">
+                        <div class="item-box-blog-image">
+                          <!--Date-->
+                          <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">40 min</span> </div>
+                          <!--Image-->
+                          <figure> <img class="card-img" alt="" src="img/menu/lobster-roll.jpg"> </figure>
+                        </div>
+                        <div class="item-box-blog-body">
+                          <!--Heading-->
+                          <div class="item-box-blog-heading">
+                            <a href="#" tabindex="0">
+                              <h5>Lobster-Roll</h5>
+                            </a>
+                          </div>
+                          <!--Data-->
+                          <div class="item-box-blog-data" style="padding: px 15px;">
+                            <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                          </div>
+                          <!--Text-->
+                          <div class="item-box-blog-text">
+                            <p>It is made of lobster meat served on a grilled hot dog-style bun with the opening on the
+                              top rather than the side. The filling may also contain butter, lemon juice, salt and black
+                              pepper, with variants made in some parts of New England replacing the butter with
+                              mayonnaise.</p>
+                          </div>
+                          <div class="mt"> <button class="btn btn-sm purple-gradient">Read more</button> </div>
+                          <!--Read More Button-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4" data-aos-delay="900" data-aos="flip-up" data-aos-duration="1000">
+                      <div class="item-box-blog">
+                        <div class="item-box-blog-image">
+                          <!--Date-->
+                          <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">5 min :)</span> </div>
+                          <!--Image-->
+                          <figure> <img class="card-img" alt="" src="img/menu/mozzarella.jpg"> </figure>
+                        </div>
+                        <div class="item-box-blog-body">
+                          <!--Heading-->
+                          <div class="item-box-blog-heading">
+                            <a href="#" tabindex="0">
+                              <h5>Mozzarella</h5>
+                            </a>
+                          </div>
+                          <!--Data-->
+                          <div class="item-box-blog-data" style="padding: px 15px;">
+                            <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                          </div>
+                          <!--Text-->
+                          <div class="item-box-blog-text">
+                            <p>Traditional mozzarella (mozzarella di bufala) is made from water buffalo milk though the
+                              most commercially available is made from cow's milk. Cheese can be produced using a
+                              variety of milk including cow, buffalo, goat, horse, and even camel.</p>
+                          </div>
+                          <div class="mt"> <button class="btn btn-sm peach-gradient">Read More</button> </div>
+                          <!--Read More Button-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--.row-->
+                </div>
+                <!--.item-->
+              </div>
+              <!--.carousel-inner-->
+            </div>
+            <!--.Carousel-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.Menu Section -->
+  <section id="events">
+    <div class="container events-carousel" data-aos="zoom-out" data-aos-duration="1000">
+      <h6 class="events-intro">Events <span class="line">
+          -----------------------------------------------------------------------</span></h6><br>
+
+      <h1 style="color: #cda45e;letter-spacing: 2px;font-weight: 400;">Organize Your Events in our Restaurant</h1>
+      <br><br>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/event-birthday.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/event-custom.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/event-private.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="carousel-text">
+            <h3 style="color: #cda45e;">Private Parties</h3>
+            <h1>$200</h1>
+            <p style="font-style: italic; color: #cda45e;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.</p>
+            <ul style="list-style: none;">
+              <li><i class="far fa-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </li>
+              <li><i class="far fa-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate
+                velit.</li>
+              <li><i class="far fa-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum esse iste velit quia dolores consectetur
+              nobis voluptas enim debitis tenetur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+              veniam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="reservation">
+    <div class="container">
+      <div data-aos="fade-up">
+      <h6 class="reservation-intro">Reservation <span class="line">
+          -----------------------------------------------------------------------</span></h6><br>
+
+      <h1 style="color: #cda45e;letter-spacing: 2px;font-weight: 400;">Book a Table</h1>
+    </div>
+      <br>
+      <div class="md-form input-with-post-icon" data-aos="fade-up" data-aos-delay="200">
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <input type="text" placeholder="Name" id="suffixInside" class="form-control">
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <input type="email" placeholder="Email" id="suffixInside" class="form-control">
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <input type="text" placeholder="phone" id="suffixInside" class="form-control">
+          </div>
+        </div><br><br>
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <input type="text" placeholder="Date" id="suffixInside" class="form-control">
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <input type="text" placeholder="Time" id="suffixInside" class="form-control">
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <input type="number" placeholder="# of people" id="suffixInside" class="form-control">
+          </div>
+        </div><br>
+        <div class="md-form">
+          <textarea id="textarea-char-counter" placeholder="type your text here" class="form-control md-textarea" length="120" rows="2"></textarea>
+        </div>
+        <div style="text-align: center;"><button class="btn btn-lg" style="background-color: #cda45e;border-radius: 0 15px;">Book</button></div>
+      </div>
+  </section>
+
+
+
+
+
+
+  <section class="scroll">
+    <a href="#home" class="scroll-icon">
+      <div class="hvr-icon-bob"> <i class="fas fa-chevron-up hvr-icon"></i> </div>
+    </a>
+  </section>
+
+
+
+
+
+
+
+
+
+  <script src="js/jquary.js"></script>
+  <script src="js/poper.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <!-- animation -->
+  <script src="js/mdb.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
